@@ -34,7 +34,7 @@ if (argv.help) {
 }
 
 if (!url) {
-  error('Required argument: %o', '--url https://www.wikipedia.org')
+  error('Required argument: %o. Try `--help`.', '--url')
   process.exit(1)
 }
 

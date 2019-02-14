@@ -61,7 +61,7 @@ let datetime = new Date()
   }
   const htmlContent = await page.content()
   if (htmlFilename) {
-    fs.writeFileSync(path.join(__dirname, fillPlaceholders(htmlFilename)), htmlContent)
+    fs.writeFileSync(path.join(process.cwd(), fillPlaceholders(htmlFilename)), htmlContent)
   }
 
   await browser.close()

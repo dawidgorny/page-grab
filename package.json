@@ -1,0 +1,25 @@
+{
+  "name": "selfie",
+  "version": "0.1.0",
+  "description": "Captures website snapshot as an PNG screenshot and HTML source file",
+  "main": "cli.js",
+  "repository": {
+    "url": "git@github.com:dawidgorny/selfie.git",
+    "type": "git"
+  },
+  "bin": {
+    "selfie": "./cli.js"
+  },
+  "scripts": {
+    "start": "./cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dawid Górny",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.12.2",
+    "tinydate": "^1.0.1"
+  }
+}

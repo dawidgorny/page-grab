@@ -1,11 +1,11 @@
-# Selfie
+# page-grab
 
-Captures website snapshot as an PNG screenshot and HTML source file. Uses [puppeteer](https://github.com/GoogleChrome/puppeteer) for content rendering.
+Captures web page snapshot as an PNG screenshot and HTML source file. Uses [puppeteer](https://github.com/GoogleChrome/puppeteer) for content rendering.
 
 ## Usage
 
 ```
-selfie --url https://github.com/dawidgorny --image dg-__STAMP__.png --html dg-__STAMP__.html
+page-grab --url https://github.com/dawidgorny --image dg-__STAMP__.png --html dg-__STAMP__.html
 ```
 
 Available arguments:

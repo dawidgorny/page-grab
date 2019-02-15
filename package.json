@@ -1,14 +1,14 @@
 {
-  "name": "selfie",
+  "name": "page-grab",
   "version": "0.1.0",
   "description": "Captures website snapshot as an PNG screenshot and HTML source file",
   "main": "cli.js",
   "repository": {
-    "url": "git@github.com:dawidgorny/selfie.git",
+    "url": "git@github.com:dawidgorny/page-grab.git",
     "type": "git"
   },
   "bin": {
-    "selfie": "./cli.js"
+    "page-grab": "./cli.js"
   },
   "scripts": {
     "start": "./cli.js",

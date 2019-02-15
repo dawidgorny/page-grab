@@ -1,6 +1,6 @@
 {
   "name": "page-grab",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Captures website snapshot as an PNG screenshot and HTML source file",
   "main": "cli.js",
   "repository": {
